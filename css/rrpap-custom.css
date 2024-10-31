@@ -1,0 +1,136 @@
+/*custom css for help and support*/
+
+.wp-picker-container label>input {
+	display: block !important;
+}
+
+.rrpap .pricing-table {
+	margin-top: 10px;
+	display: block;
+	width: 100%;
+	overflow: hidden;
+	background: white;
+	box-shadow: 0 0 5px hsla(0, 0%, 20%, 0.3);
+	padding-bottom: 70px
+}
+
+.rrpap .plan-name {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.rrpap .plan-name h2 {
+	font-weight: bold;
+	font-size: 36px;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	color: #D9534F;
+}
+
+.rrpap .plan-name h6 {
+	font-size: 21px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 11px;
+	font-family: Open Sans, sans-serif;
+	line-height: 1.6em;
+}
+
+.rrpap .purchase_btn_div {
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+.rrpap .purchase_btn_div h2 {
+	font-weight: bold;
+	font-size: 24px;
+	padding-top: 30px;
+}
+
+.rrpap .purchase_btn_div a {
+	margin-right: 10px;
+	margin-left: 40px;
+	margin-top: 30px;
+	text-decoration: none;
+
+}
+
+.rrpap .rate-us {
+	margin-top: 40px;
+	margin-left: 30px;
+}
+
+.rrpap .rate-us h2 {
+	font-weight: bold;
+	font-size: 34px;
+	padding-top: 30px;
+}
+
+.rrpap .rate-us h6 {
+	font-size: 22px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	line-height: 40px;
+}
+
+.rrpap .rate-us .acl-rate-us span.dashicons {
+	width: 30px;
+	height: 30px;
+}
+
+.rrpap .rate-us .acl-rate-us span.dashicons-star-filled:before {
+	content: "\f155";
+	font-size: 30px;
+}
+
+.rrpap .rate-us .acl-rate-us {
+	color: #FBD229 !important;
+	padding-top: 5px !important;
+}
+
+.rrpap .rate-us .acl-rate-us span {
+	display: inline-block;
+}
+
+.rrpap .rate-us .star-rate a {
+	text-align: center;
+	text-decoration: none;
+	font: normal 30px;
+}
+
+.rrpap .Suggestion {
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+.rrpap .Suggestion h2 {
+	font-weight: bold;
+	font-size: 28px;
+	padding-top: 30px;
+}
+
+.rrpap .Suggestion h6 {
+	font-size: 18px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	line-height: 50px;
+}
+
+.rrpap .Language {
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+.rrpap .Language h2 {
+	font-weight: bold;
+	font-size: 28px;
+	padding-top: 10px;
+}
+
+.rrpap .Language h6 {
+	font-size: 18px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	line-height: 30px;
+	margin-left: 30px;
+}

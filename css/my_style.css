@@ -1,0 +1,396 @@
+.add_new_img {
+	text-align: center;
+	padding-top: 3.8%;
+	padding-bottom: 3.8%;
+	border: 5px dashed #CCC;
+	cursor: pointer;
+	width: 21%;
+	margin-left: 13px;
+}
+
+.add_new_img:hover {
+	border: 5px dashed #0074a2;
+	background: #0074a2;
+}
+
+.add_new_img .dashicons {
+	border-radius: 50%;
+	background: #FFF;
+	color: #999;
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+	line-height: 110px;
+	font-size: 80px;
+	text-align: center;
+	top: 30%;
+}
+
+.add_new_img:hover p {
+	color: #FFF;
+}
+
+.add_new_img:hover .dashicons {
+	color: #0074a2;
+}
+
+.image_countainer {
+	width: 100%;
+
+}
+
+#lksgallery_thumbs {
+	width: 100%;
+}
+
+#lksgallery_thumbs li {
+	width: 21%;
+	position: relative;
+	float: left;
+	border: 1px solid #DDD;
+	padding: 10px;
+	margin: 10px 10px 15px 10px;
+	background-color: #F1F1F1;
+}
+
+#lksgallery_thumbs li img {
+	width: 100%;
+	max-height: 122px;
+}
+
+.lksgallery_remove_image img {
+	width: 20px !important;
+	position: absolute;
+	top: -11px;
+	right: -11px;
+}
+
+.choose_image_entry label {}
+
+.choose_image_entry input[type="text"],
+.choose_image_entry textarea,
+.choose_image_entry select {
+	width: 100%;
+	padding: 7px;
+	margin: 2px 0 10px 0;
+	height: 35px;
+}
+
+.choose_image_entry textarea {
+	height: 60px;
+}
+
+#clearfix {
+	clear: both;
+}
+
+.btn-lg,
+.btn-group-lg>.btn {
+	padding: 10px 16px;
+	font-size: 18px;
+	line-height: 1.33;
+	border-radius: 6px;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: #428bca;
+	border-color: #357ebd;
+}
+
+.btn {
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+
+.wrap>h1,
+h2 {
+	color: #23282d;
+	font-size: 1.5em;
+	margin: .83em 0;
+	font-weight: 400;
+}
+
+#btn-support {
+	margin-bottom: 30px;
+}
+
+#btn-support:hover {
+	opacity: 0.6;
+	color: #FFF;
+}
+
+#all_delete_btn {
+	padding: 2px 21px;
+	font-size: 17px;
+	background: #F08080;
+	color: #FFF;
+}
+
+#all_delete_btn:hover {
+	opacity: 0.6;
+}
+
+span.dashicons {
+	width: 30px;
+	height: 30px;
+	color: #584444 !important
+}
+
+span.dashicons-star-filled:before {
+	content: "\f155";
+	font-size: 30px;
+}
+
+.faglk-rate-us {
+	color: #F8504B !important;
+	margin-bottom: 5px;
+}
+
+.faglk-rate-us span.dashicons {
+	width: 30px;
+	height: 30px;
+}
+
+.faglk-rate-us span.dashicons-star-filled:before {
+	content: "\f155";
+	font-size: 30px;
+}
+
+.rrp_getpro {
+	width: 100%;
+}
+
+.upg_anch {
+	text-decoration: none;
+	color: #fff;
+	padding: 12px;
+	background-color: #3ea65a;
+}
+
+.update_pro_button a {
+	font-size: 24px;
+	color: #fff;
+	padding: 13px;
+	background: #fe6347;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	border-radius: 4px;
+}
+
+.lbl {
+	float: left;
+	width: 100%;
+	margin-right: 0.7em;
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
+	text-align: center;
+	font-weight: bold;
+	background-color: #F44336;
+	font-size: 20px;
+	color: white;
+}
+
+.page_context {
+	display: none;
+}
+
+.post_context {
+	display: none;
+}
+
+.form-table input.tog,
+.form-table input[type=radio] {
+	margin-top: -4px;
+	margin-right: 4px;
+	margin-left: 0px !important;
+	float: none;
+}
+
+.info_info {
+	text-decoration: none;
+	margin-left: 10px;
+}
+
+.rang_span_style {
+	width: 34px !important;
+	height: 25px;
+	margin: auto;
+	display: inline-block;
+	border: 2px solid gray;
+	vertical-align: middle;
+	border-radius: 20px !important;
+	background-color: #FFFFFF;
+	text-align: center;
+	font-size: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	padding: 5px 10px;
+}
+
+.slidecontainer {
+	width: 100%;
+}
+
+.slider {
+	-webkit-appearance: none;
+	width: 30%;
+	height: 10px;
+	border-radius: 5px;
+	background: #d3d3d3;
+	outline: none;
+	opacity: 0.7;
+	-webkit-transition: .2s;
+	transition: opacity .2s;
+}
+
+.slider:hover {
+	opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background: #000;
+	cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background: #000;
+	cursor: pointer;
+}
+
+.lbl {
+	float: left;
+	width: 100%;
+	margin-right: 0.7em;
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
+	text-align: center;
+	font-weight: bold;
+	background-color: #F44336;
+	font-size: 20px;
+	color: white;
+}
+
+.rang_span_style {
+	width: auto;
+	height: 30px;
+	margin: auto;
+	display: inline-block;
+	border: 2px solid gray;
+	vertical-align: middle;
+	border-radius: 8px;
+	background-color: #FFFFFF;
+	text-align: center;
+	font-size: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	padding: 5px 10px;
+}
+
+.form-table input.tog,
+.form-table input[type=radio] {
+	margin-top: -4px;
+	margin-right: 4px;
+	margin-left: 4%;
+	float: none;
+}
+
+input,
+select {
+	margin-right: 2%;
+	margin-left: 0%;
+}
+
+
+.wp-core-ui .button,
+.wp-core-ui .button-primary,
+.wp-core-ui .button-secondary {
+	margin-top: 1%;
+}
+
+#speed_slider {
+	display: none;
+}
+
+.info_info {
+	text-decoration: none;
+	margin-left: 10px;
+}
+
+.info_custom {
+	vertical-align: text-top;
+	text-decoration: none;
+	margin-left: 10px;
+}
+
+.custnote {
+	background-color: rgba(23, 31, 22, 0.64);
+	color: #fff;
+	width: 324px;
+	border-radius: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+#smoothup {
+	height: 50px;
+	width: 50px;
+	position: fixed;
+	bottom: 50px;
+	right: 250px;
+	text-indent: -9999px;
+	display: none;
+	/*background: url("<?php echo esc_attr(WL_RP_PLUGIN_URL.'settings/images/up.png'); ?>");*/
+	-webkit-transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+
+#smoothup:hover {
+	-webkit-transform: rotate(360deg)
+}
+
+background: url('') no-repeat;
+}
+
+.slidecontainer {
+	width: 100%;
+	\
+
+}
+
+.postbox-container .ui-sortable .form-table .rang_span_style {
+	margin-bottom: 6px !important;
+	padding: 0 !important;
+}
+
+
+.form-table th {   
+    padding: 20px 10px 20px 30px;  
+}
